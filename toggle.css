@@ -1,0 +1,36 @@
+body{
+    display: block;
+    margin-top: 100px;
+    background: #def3f8;
+    transition: background .5s ease-in;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    background: none;
+    transition: box-shadow 1s ease-in;
+    background-color: rgba(66, 115, 175, 0.2);
+    box-shadow: inset -2px 2px 5px #4273af;
+}
+
+button{
+    position: relative;
+    left: 0;
+    background: none;
+    background-image: url(/Toggle_buttom/icons8-sun-48.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: left 1s ease;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+}
