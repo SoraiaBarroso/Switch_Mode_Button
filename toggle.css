@@ -23,7 +23,7 @@ button{
     position: relative;
     left: 0;
     background: none;
-    background-image: url(/Toggle_buttom/icons8-sun-48.png);
+    background-image: url(./icons8-sun-48.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
